@@ -71,7 +71,7 @@ steps: # Checking out connected repo
 - task: CmdLine@2 # Push changes to GitHub (substitute your repo)
   inputs:
     script: |
-      git config --global user.email "username@contoso.com"
+      git config --global user.email "venkat.kristipati@gmail.com"
       git config --global user.name "Azure Pipeline"
       git add package.json
       git commit -a -m "Test Commit from Azure DevOps"
